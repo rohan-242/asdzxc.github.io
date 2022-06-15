@@ -20,8 +20,20 @@ body{
   text-align: center;
   padding-top: 30px;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  color: #fff100;
+  letter-spacing: 4px;
 }
-
+.first_head{
+  color: #fff100;
+}
+.below{
+  padding-top: 50px;
+}
+.para{
+  padding-bottom: 50px;
+}
 /* left-div */
 .wrap-image{
   padding-top: 50px;
@@ -31,6 +43,14 @@ body{
   /* margin: auto; */
   width: 96%;
   padding-bottom: 20px;
+}
+hr{
+  width: 25%;
+  margin-bottom: 100px;
+  padding: 0;
+  outline: 0;
+  margin:auto;
+  border-top: 20px dotted black;
 }
 .left_img{
   width: 100%;
@@ -46,6 +66,8 @@ body{
   /* background-color: #ffffff; */
   /* border-radius: 40px; */
   margin: auto;
+
+text-align: center;
 }
 th{
   padding-bottom: 30px;
