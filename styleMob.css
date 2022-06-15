@@ -27,12 +27,20 @@ body{
 }
 .first_head{
   color: #fff100;
+  font-family: 'Libre Baskerville', serif;
 }
 .below{
   padding-top: 50px;
 }
 .para{
   padding-bottom: 50px;
+  font-family: 'Libre Baskerville', serif;
+}
+.fa-2xs{
+  margin-right: 5px;
+}
+table0{
+  border-spacing: 0 5em;
 }
 /* left-div */
 .wrap-image{
@@ -69,6 +77,30 @@ hr{
 
 text-align: center;
 }
+.table_div0{
+  width: 90%;
+  margin: auto;
+}
+.facility_head{
+  text-align: center;
+  /* padding-top: 40px;*/
+  padding-bottom: 50px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+  /* letter-spacing: 0; */
+  color: #fff100;
+  margin-bottom: 0;
+
+}
+.facility{
+  margin-bottom: 100px;
+}
+.bl_hr1{
+  margin-top: 80px;
+}
+.bl_hr2{
+  margin-bottom: 80px;
+}
 th{
   padding-bottom: 30px;
 }
@@ -83,12 +115,27 @@ h3{
 }
 .pricing_table{
   font-family: 'Libre Baskerville', serif;
-  font-size: 10px;
+  /* font-size: 10px; */
 
 }
 .price_tb{
-  font-size: 50px;
+  font-size: 40px;
   background-color: white;
+}
+.char{
+  color: black;
+  margin-left: 10px;
+}
+.char1{
+  margin-left: 60px;
+  padding-bottom: 30px;
+  color: #fff100;
+}
+.notes{
+  margin-top: 50px;
+  width: 98%;
+  margin: auto;
+
 }
 /***** second-div ******/
 
@@ -176,11 +223,15 @@ img{
   text-align: right;
 }
 table{
+  font-family: 'Libre Baskerville', serif;
   width: 100%;
   font-size: 40px;
   border: 3px #fff100 solid;
   padding: 20px;
   border-radius: 10px;
+}
+td{
+  text-align: left;
 }
 .areainfo_head{
   text-align: center;
